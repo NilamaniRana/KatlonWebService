@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Guest_Get_GUID_Details copy_Less cost _Scenario</name>
+   <tag></tag>
+   <elementGuidId>bb8826f1-cb6c-49d6-a5b9-2b9e128f1e6c</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${guest_Access_Token}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/x-www-form-urlencoded</value>
+   </httpHeaderProperties>
+   <katalonVersion>8.2.5</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${BaseURL}/services/v2_1/ssl/users/anonymous/carts/${GUID_Less}</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.BaseURL</defaultValue>
+      <description></description>
+      <id>558839bd-5868-42a0-a664-e2c0acfdb435</id>
+      <masked>false</masked>
+      <name>BaseURL</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.GUID_Less</defaultValue>
+      <description></description>
+      <id>708b7220-1f16-4ebd-93c0-5f182c324192</id>
+      <masked>false</masked>
+      <name>GUID_Less</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.guest_Access_Token</defaultValue>
+      <description></description>
+      <id>0eda3d2a-ba74-4a7a-8ac4-1059c1e7ad06</id>
+      <masked>false</masked>
+      <name>guest_Access_Token</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
