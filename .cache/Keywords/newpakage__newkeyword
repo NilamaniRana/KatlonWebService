@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "C6266FEE7E9DFCC20A4BE5936BFB3A70",
+  "keywordClasses": [
+    {
+      "name": "newpakage.newkeyword",
+      "keywordMethods": [
+        {
+          "name": "getAccessToken",
+          "parameters": [
+            {
+              "name": "responseRepo",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

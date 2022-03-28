@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Guest_Place cod order_Invalid accessToken_low cost product</name>
+   <tag></tag>
+   <elementGuidId>fff68849-9427-484a-8f44-77563c30bfbf</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;parameters&quot;: []
+}</httpBodyContent>
+   <httpBodyType>form-data</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer 123</value>
+   </httpHeaderProperties>
+   <katalonVersion>8.2.5</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${BaseURL}/services/v2_1/ssl/users/anonymous/carts/${GUID_Less}/payment/cod</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.BaseURL</defaultValue>
+      <description></description>
+      <id>07e18bd4-ff32-4758-8b18-ee3805bd7599</id>
+      <masked>false</masked>
+      <name>BaseURL</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.GUID_Less</defaultValue>
+      <description></description>
+      <id>3e14d59f-95e0-41e4-a86c-0df59d8519aa</id>
+      <masked>false</masked>
+      <name>GUID_Less</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
