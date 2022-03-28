@@ -36,7 +36,7 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.myuser</defaultValue>
+      <defaultValue>findTestData('GlobalEnvSetup/EnvironmentValues').getValue(2, 1)</defaultValue>
       <description></description>
       <id>43fb53e0-0b4c-4f14-868a-cf6e7e42ec3b</id>
       <masked>false</masked>

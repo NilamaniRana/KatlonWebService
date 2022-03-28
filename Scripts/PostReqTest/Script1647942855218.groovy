@@ -21,8 +21,6 @@ responce = WS.sendRequest(findTestObject('PostRequest'))
 
 WS.verifyResponseStatusCode(responce, 201)
 
-WS.verifyElementPropertyValue(responce, 'name', GlobalVariable.myuser)
-
 def username = WS.getElementPropertyValue(responce, 'name')
 
 println(username)
